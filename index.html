@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Portfolio Name</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" async>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- CORRECTION ajout Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Lien d'évitement pour l'accessibilité (clavier / lecteur d'écran) -->
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+    <!-- CORRECTION header -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll" aria-label="Navigation principale">
+            <div class="container-fluid header-container">
+                <!-- Titre à gauche -->
+                <a class="navbar-brand" href="#home" aria-label="Retour à l'accueil - Emilie MALO">Emilie MALO</a>
+                
+                <!-- Bouton toggle pour mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Navigation centrée -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    
+                    <!-- Sélecteur de langue à droite -->
+                    <div class="language-selector" role="group" aria-label="Choisir la langue">
+                        <button class="lang-btn active" aria-label="Français" data-lang="fr">FR</button>
+                        <button class="lang-btn" aria-label="English" data-lang="en">EN</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main banner -->
+    <main id="main-content">
+    <section class="bgimage" id="home" aria-labelledby="hero-heading">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h1 class="hero_title" id="hero-heading">Salut ! moi c'est Emilie</h1>
+                    <h2 class="hero_desc">Testeur logiciel junior</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about" aria-labelledby="about-title">
+        <div class="container mt-4 pt-4">
+            <h2 class="text-center" id="about-title">A propos de moi </h2>
+            <div class="row mt-4">
+                <div class="col-lg-12">
+                    <p>En reconversion professionnelle vers le développement web, je me spécialise dans le test logiciel en alternance.
+                    Je maîtrise l'automatisation des tests end-to-end, les tests API, la gestion des cas de test et le développement web.</p>
+                    <p>J'ai participé à des projets variés : sites écoresponsables, plateformes événementielles et applications financières, en pilotant les campagnes QA et la stratégie de tests.</p>
+                    <p>J'interviens sur le debug, l'optimisation et l'accessibilité, garantissant la qualité et la performance des livrables web.</p>
+                    <p>J'ai également contribué à l'implémentation de l'IA dans le SaaS de mon entreprise, alliant innovation et qualité logicielle.</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- skills section-->
+    <section id="skills" aria-labelledby="skills-title">
+        <div class="container">
+            <h2 class="text-center" id="skills-title">Mes compétences</h2>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio" aria-labelledby="portfolio-title">
+        <div class="container mt-3">
+            <h2 class="text-center" id="portfolio-title">Mes projets</h2>
+    </section>
+
+    <!-- Footer contact section-->
+    <section id="contact" aria-labelledby="contact-title">
+        <footer class="container mt-3 contactContent">
+            <h2 class="text-center" id="contact-title">Contactez-moi</h2>
+            <div class="footer-icons" role="list">
+                <a href="https://github.com/emiliemalo" target="_blank" rel="noopener noreferrer" class="footer-icon-link" aria-label="Visiter mon profil GitHub - emiliemalo" role="listitem">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    <span class="visually-hidden">GitHub</span>
+                </a>
+                <a href="mailto:emiliemalo261@gmail.com" class="footer-email-text" aria-label="Envoyer un email à emiliemalo261@gmail.com" role="listitem">emiliemalo261@gmail.com</a>
+                <a href="https://www.linkedin.com/in/emilie-patricia-malo/" target="_blank" rel="noopener noreferrer" class="footer-icon-link" aria-label="Visiter mon profil LinkedIn - Emilie Patricia Malo" role="listitem">
+                    <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                    <span class="visually-hidden">LinkedIn</span>
+                </a>
+            </div>
+        </footer>
+    </section>
+    </main>
+
+    <!-- load javascript after loading all html content (minified for Lighthouse) -->
+    <script src="script/english-version.min.js"></script>
+    <script src="script/script.min.js"></script>
+
+</body>
+
+</html>

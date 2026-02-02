@@ -1,0 +1,47 @@
+[
+    {
+        "image": "test.png",
+        "title": "Tests end-to-end",
+        "text": "Automatiser les tests end-to-end pour valider les parcours utilisateurs sur les applications web."
+    },
+    {
+        "image": "test.png",
+        "title": "Postman",
+        "text": "Tester les API REST via des requêtes, des scripts de vérification et des collections automatisées."
+    },
+    {
+        "image": "test.png",
+        "title": "Xray",
+        "text": "Gérer les cas de test dans Jira : conception, exécution, suivi des campagnes et couverture des exigences."
+    },
+    {
+        "image": "html-css.jpg",
+        "title": "HTML - CSS",
+        "text": "Intégrer des interfaces web responsives à partir de maquettes, avec animations CSS et accessibilité."
+    },
+    {
+        "image": "js.jpg",
+        "title": "JavaScript",
+        "text": "Créer des interactions dynamiques et manipuler le DOM dans des applications web modernes."
+    },
+    {
+        "image": "react.jpg",
+        "title": "React",
+        "text": "Développer des composants réutilisables et gérer leur état dans des interfaces réactives."
+    },
+    {
+        "image": "gestion-de-projet.png",
+        "title": "Gestion de projet QA",
+        "text": "Organiser les phases de test, planifier les sprints, et collaborer avec les équipes produit et dev."
+    },
+    {
+        "image": "optimisation-et-debug.png",
+        "title": "Debug & Optimisation",
+        "text": "Identifier les bugs, optimiser le SEO, améliorer les performances et publier les livrables web."
+    },
+    {
+        "image": "test.png",
+        "title": "Stratégies de test",
+        "text": "Concevoir et exécuter des tests fonctionnels, exploratoires, API, unitaires, et de non-régression."
+    }
+]
