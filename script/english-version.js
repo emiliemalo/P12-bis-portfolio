@@ -132,7 +132,7 @@ function applyFrenchContent() {
         btn.textContent = "Voir le projet";
     });
 
-    fetch('data/portfolio.json')
+    fetch('json/portfolio.json')
         .then(response => response.json())
         .then(data => {
             const cards = document.querySelectorAll('#portfolio .portfolioContent');
@@ -156,7 +156,7 @@ let currentLanguage = 'fr';
 // Function to translate the page (loads JSON when EN is clicked)
 function translatePage(lang) {
     if (lang === 'en') {
-        fetch('data/translations-en.json')
+        fetch('json/translations-en.json')
             .then(response => response.json())
             .then(data => {
                 translationsEn = data;
